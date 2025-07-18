@@ -48,7 +48,7 @@ section{
 }
 
 section img{
-    width: 14rem;
+    width: 12VW;
     border-radius: 40px;
     box-shadow: 5px 5px 89px 100px rgba(31, 31, 31, 0.339);
     user-select: none;
