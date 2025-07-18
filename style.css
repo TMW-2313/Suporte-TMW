@@ -29,7 +29,8 @@ body{
     background-size: 100vw; /* Faz a imagem cobrir toda a tela */
     background-position: center; /* Centraliza a imagem */
     width: auto;
-    background-color: #08154e;
+    background-color: #041348;
+    background-attachment: fixed;
     background-image: url(src/bg.png);
 }
 #suporte{
