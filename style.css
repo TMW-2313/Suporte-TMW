@@ -57,7 +57,6 @@ section img{
 }
 
 section img:hover{
-    width: ;
     border-radius: 20px;
     box-shadow: 5px 5px 90px 100px rgba(255, 255, 255, 0.137);
     border: 2px solid #ffffff;
@@ -115,5 +114,8 @@ section img:hover{
 @media (max-width: 900px) {
    header img {
         width: 50%;
+    }
+    section img{
+        width: 30%;
     }
 }
