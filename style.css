@@ -44,6 +44,7 @@ body{
 
 section{
     max-width: 1200px;
+    width: 1000px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -115,7 +116,10 @@ section img:hover{
    header img {
         width: 50%;
     }
+    sectio(
+        width: 100vw;;
+    )
     section img{
-        width: 30%;
+        width: 28%;
     }
 }
