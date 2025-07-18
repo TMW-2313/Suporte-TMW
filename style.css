@@ -18,19 +18,24 @@ header img{
         0 0 10px #00BFFF,
         0 0 20px #00BFFF,
         0 0 30px #00BFFF,
-        20px 10px 50px #000000;
+        20px 10px 50px #000000d6;
     user-select: none;
     pointer-events: none;
     animation: Suporte 8s cubic-bezier(0.11, 0, 0.5, 0) 1s infinite alternate-reverse none;
 }
 body{
-    background-image: url(src/bg.png);
+
     background-repeat: no-repeat;
-    height: 99vh;
+    background-size: 100vw; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
     width: auto;
-    background-position: center;
-    background-size: cover;
-    background-position: bottom;
+    background-color: #0B1B3C;
+    background-image: url(src/bg.png);
+}
+#container{
+    box-shadow: 0px 50px 94px -6px rgba(5,21,72,0.75);
+    -webkit-box-shadow: 0px 50px 94px -6px rgba(5,21,72,0.75);
+    -moz-box-shadow: 0px 50px 94px -6px rgba(5,21,72,0.75);
     
 }
 #suporte{
@@ -50,17 +55,17 @@ section{
 
 section img{
     width: 300px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 89px 100px rgba(31, 31, 31, 0.616);
+    border-radius: 40px;
+    box-shadow: 5px 5px 89px 100px rgba(31, 31, 31, 0.339);
     user-select: none;
 }
 
 section img:hover{
     border-radius: 20px;
-    box-shadow: 5px 5px 90px 100px rgba(255, 255, 255, 0.137);
+    box-shadow: 5px 5px 90px 100px rgba(255, 255, 255, 0.115);
     cursor: pointer;
     transform: scale(1.09);
-    border-radius: 40px;
+    border-radius:41px;
     
 }
 
@@ -110,7 +115,7 @@ section img:hover{
 	}
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
    header img {
         width: 50%;
     }
@@ -122,5 +127,13 @@ section img:hover{
     }
     #suporte{
     padding-top: 80px; 
+}
+body{
+
+    background-repeat: no-repeat;;
+    width: auto%;
+    background-position: top;
+    background-image: url(src/bg.png);
+    background-color: #0B1B3C;
 }
 }
