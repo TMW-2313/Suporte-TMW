@@ -115,7 +115,7 @@ section img:hover{
 	}
 }
 
-@media (max-width: 760px) {
+@media (max-width: 700px) {
    header img {
         width: 50%;
     }
