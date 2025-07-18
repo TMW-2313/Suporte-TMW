@@ -7,7 +7,6 @@
 header{
     text-align: center;
     padding-top: 30px;
-
 }
 
 header img{
@@ -111,4 +110,10 @@ section img:hover{
 		opacity: 1;
 		transform: translateY(0px);
 	}
+}
+
+@media (max-width: 900px) {
+   header img {
+        width: 50%;
+    }
 }
