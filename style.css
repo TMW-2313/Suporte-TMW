@@ -120,4 +120,7 @@ section img:hover{
         section img{
         width: 32vw;
     }
+    #suporte{
+    padding-top: 80px; 
+}
 }
