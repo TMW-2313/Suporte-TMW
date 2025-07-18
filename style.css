@@ -44,13 +44,14 @@ body{
 }
 
 section{
-    width: 1000px;
+    width: 1200px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 section img{
-    width: 200px;
+    width: 300px;
     border-radius: 20px;
     box-shadow: 5px 5px 89px 100px rgba(31, 31, 31, 0.616);
     user-select: none;
