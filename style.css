@@ -119,7 +119,7 @@ section img:hover{
     section{
         width: 100vw;
     }
-    section img{
-        width: 28%;
+        section img{
+        width: 32vw;
     }
 }
