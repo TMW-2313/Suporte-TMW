@@ -51,7 +51,7 @@ section{
 
 section img{
     width: 12VW;
-    border-radius: 40px;
+    border-radius: 15%;
     box-shadow: 5px 5px 89px 100px rgba(31, 31, 31, 0.339);
     user-select: none;
 }
@@ -61,8 +61,7 @@ section img:hover{
     box-shadow: 5px 5px 90px 100px rgba(255, 255, 255, 0.115);
     cursor: pointer;
     transform: scale(1.09);
-    border-radius:41px;
-    
+    border-radius:18%;
 }
 
 @keyframes Suporte {
