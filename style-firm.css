@@ -20,6 +20,7 @@ body{
   left: 10px;
   z-index: 1000;
   width: 10%;
+  user-select: none;
 }
 #voltar img:hover{
   filter: brightness(1.2) contrast(1.2);
