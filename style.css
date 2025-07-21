@@ -125,10 +125,11 @@ section img:hover{
 }
 body{
 
-    background-repeat: no-repeat;;
+    background-repeat: no-repeat;
     width: auto;
-    background-position: top;
+    background-position: center;
     background-image: url(src/bg.png);
     background-color: #08154e;
+    background-attachment: initial;
 }
 }
