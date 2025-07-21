@@ -27,7 +27,7 @@ body{
 
     background-repeat: no-repeat;
     background-size: 100vw; /* Faz a imagem cobrir toda a tela */
-    background-position: center; /* Centraliza a imagem */
+    background-position: top; /* Centraliza a imagem */
     width: auto;
     background-color: #041348;
     background-attachment: fixed;
@@ -41,8 +41,7 @@ body{
 }
 
 section{
-    max-width: 1600px;
-    width: 1200px;
+    width: 1000px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -50,7 +49,7 @@ section{
 }
 
 section img{
-    width: 12VW;
+    width: 120px;
     border-radius: 15%;
     box-shadow: 5px 5px 89px 100px rgba(31, 31, 31, 0.339);
     user-select: none;
@@ -111,7 +110,7 @@ section img:hover{
 	}
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
    header img {
         width: 50%;
     }
@@ -119,7 +118,7 @@ section img:hover{
         width: 100vw;
     }
         section img{
-        width: 32vw;
+        width: 18vw;
     }
     #suporte{
     padding-top: 80px; 
