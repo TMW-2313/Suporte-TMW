@@ -34,7 +34,7 @@ header{
 }
 header img{
   text-align: center;
-  height: 40vh;
+  height: 32vh;
   border-radius: 39% 61% 56% 44% / 65% 73% 27% 35% ;
   box-shadow: 4px 3px 50px 17px rgba(0,10,52,0.46), 7px 6px 50px 17px rgba(0,0,0,0.21);
   animation: myAnim 8s ease 0s infinite alternate-reverse both;
@@ -49,7 +49,7 @@ ul{
     list-style: none;
     max-width: 1000px;
     margin: auto;
-    padding-top: 30rem;
+    padding-top: 20rem;
     user-select: none;
     row-gap: 30px;
 }
@@ -58,7 +58,7 @@ ul li{
   text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 15px;
     color: #062837;
     text-align: center;
     text-transform: uppercase;
@@ -72,8 +72,14 @@ ul li{
         0 0 20px #3EC6FF,
         0 0 40px #3EC6FF;
 }
+
+ul li h1{
+  font-size: 20px;
+}
+
+
 ul li img{
-  width: 10rem;
+  width: 8rem;
   border-radius: 18%;
   padding-bottom: 15px;
 }
