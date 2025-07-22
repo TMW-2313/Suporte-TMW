@@ -32,7 +32,7 @@ body{
     width: auto;
     background-color: #041348;
     background-attachment: fixed;
-    background-image: url(src/bg.png);
+    background-image: url(../src/bg.png);
 }
 #suporte{
     display: flex;
