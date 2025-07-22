@@ -28,7 +28,7 @@ body{
 
     background-repeat:  no-repeat;
     background-size:cover; /* Faz a imagem cobrir toda a tela */
-    background-position: top; /* Centraliza a imagem */
+    background-position: bottom; /* Centraliza a imagem */
     width: auto;
     background-color: #041348;
     background-attachment: fixed;
