@@ -3,6 +3,7 @@
     box-sizing: border-box;
     border: 0px;
     margin: 0px;
+    text-decoration: none;
 }
 body{
     background-repeat: no-repeat;
@@ -20,6 +21,7 @@ body{
   left: 10px;
   z-index: 1000;
   width: 10%;
+  user-select: none;
 }
 #voltar img:hover{
   filter: brightness(1.2) contrast(1.2);
@@ -33,7 +35,7 @@ header{
 }
 header img{
   text-align: center;
-  height: 40vh;
+  height: 32vh;
   border-radius: 39% 61% 56% 44% / 65% 73% 27% 35% ;
   box-shadow: 4px 3px 50px 17px rgba(0,10,52,0.46), 7px 6px 50px 17px rgba(0,0,0,0.21);
   animation: myAnim 8s ease 0s infinite alternate-reverse both;
@@ -57,7 +59,7 @@ ul li{
   text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 15px;
     color: #062837;
     text-align: center;
     text-transform: uppercase;
@@ -71,11 +73,23 @@ ul li{
         0 0 20px #3EC6FF,
         0 0 40px #3EC6FF;
 }
+
+ul li h1{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
 ul li img{
-  width: 10rem;
+  width: 8rem;
   border-radius: 18%;
   padding-bottom: 15px;
 }
+ul li a{
+  font-size: 20px;
+  color: #062837;
+}
+
 ul li:hover{
     filter: brightness(1.2) contrast(1.2);
     transform: scale(1.1);

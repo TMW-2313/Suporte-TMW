@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     border: 0px;
+    text-decoration: none;
 }
 header{
     text-align: center;
@@ -25,9 +26,9 @@ header img{
 }
 body{
 
-    background-repeat: no-repeat;
-    background-size: 100vw; /* Faz a imagem cobrir toda a tela */
-    background-position: center; /* Centraliza a imagem */
+    background-repeat:  no-repeat;
+    background-size:cover; /* Faz a imagem cobrir toda a tela */
+    background-position: top; /* Centraliza a imagem */
     width: auto;
     background-color: #041348;
     background-attachment: fixed;
@@ -36,12 +37,11 @@ body{
 #suporte{
     display: flex;
     justify-content: center;
-    padding-top: 150px; 
+    padding-top: 110px; 
 
 }
 
 section{
-    max-width: 1200px;
     width: 1000px;
     display: flex;
     justify-content: space-around;
@@ -50,7 +50,7 @@ section{
 }
 
 section img{
-    width: 12VW;
+    width: 120px;
     border-radius: 15%;
     box-shadow: 5px 5px 89px 100px rgba(31, 31, 31, 0.339);
     user-select: none;
@@ -62,6 +62,7 @@ section img:hover{
     cursor: pointer;
     transform: scale(1.09);
     border-radius:18%;
+
 }
 
 @keyframes Suporte {
@@ -110,7 +111,7 @@ section img:hover{
 	}
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
    header img {
         width: 50%;
     }
@@ -118,17 +119,18 @@ section img:hover{
         width: 100vw;
     }
         section img{
-        width: 32vw;
+        width: 26vw;
     }
     #suporte{
     padding-top: 80px; 
 }
 body{
 
-    background-repeat: no-repeat;;
+    background-repeat: no-repeat;
     width: auto;
-    background-position: top;
+    background-position: center;
     background-image: url(src/bg.png);
     background-color: #08154e;
+    background-attachment: initial;
 }
 }
