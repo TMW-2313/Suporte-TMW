@@ -12,7 +12,7 @@ body{
     width: auto;
     background-color: #011840;
     background-attachment: fixed;
-    background-image: url(src/bg2.jpg);
+    background-image: url(../src/bg2.jpg);
 }
 
 #voltar img{
