@@ -1,0 +1,132 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  border: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+body {
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: centertop;
+  width: auto;
+  background-color: #011840;
+  background-attachment: fixed;
+  background-image: url(../src/bg2.jpg);
+}
+
+#voltar img {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  width: 10%;
+  user-select: none;
+}
+#voltar img:hover {
+  filter: brightness(1.2) contrast(1.2);
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+header {
+  text-align: center;
+  height: 10vh;
+}
+header img {
+  text-align: center;
+  height: 32vh;
+  border-radius: 15%;
+  box-shadow: 4px 3px 50px 17px rgba(0, 10, 52, 0.46),
+    7px 6px 50px 17px rgba(0, 0, 0, 0.21);
+  animation: myAnim 20s ease 0s infinite alternate-reverse both;
+  pointer-events: none;
+  user-select: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 250px auto auto;
+  color: rgb(255, 255, 255);
+
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+
+  /* Efeito glass */
+  background: rgba(255, 255, 255, 0.387);
+  border-radius: 25px;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.51);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.678);
+  width: max-content;
+  padding: 5px;
+
+  /* Efeito NEON Azul com Glow */
+
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #0509f4, 0 0 20px #000000,
+    0 0 40px #004664;
+}
+section img {
+  width: 300px;
+  border-radius: 9%;
+  padding-top: 15px;
+}
+section:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.09);
+  cursor: pointer;
+  border: 3px solid rgba(255, 255, 255, 0.678);
+  text-shadow: 0 0 5px #00ddff, 0 0 10px #000000, 0 0 20px #3ec5fff1,
+    0 0 40px #3ec5ff;
+}
+
+@media (max-width: 1000px) {
+  header img {
+    height: 35vh;
+  }
+  ul {
+    padding-top: 30vh;
+  }
+  ul li img {
+    width: 35vw;
+  }
+}
+
+@keyframes myAnim {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
