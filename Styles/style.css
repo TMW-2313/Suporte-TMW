@@ -52,7 +52,7 @@ section{
 section img{
     width: 120px;
     border-radius: 15%;
-    box-shadow: 5px 5px 89px 100px rgba(31, 31, 31, 0.339);
+    /* box-shadow: 5px 5px 89px 100px rgba(31, 31, 31, 0.339); */
     user-select: none;
 }
 
@@ -129,8 +129,8 @@ body{
     background-repeat: no-repeat;
     width: auto;
     background-position: center;
-    background-image: url(src/bg.png);
-    background-color: #08154e;
+    background-image: url(../src/bg-mobile.png);
+    background-color: #000E39;
     background-attachment: initial;
 }
 }
