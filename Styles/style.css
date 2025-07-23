@@ -67,7 +67,7 @@ section img:hover{
 /*TODO Media Queries (responsividade para Mobile) */
 @media (max-width: 740px) {
    header img {
-        width: 32%;
+        width: 30%;
     }
     section{
         width: 100vw;
@@ -76,7 +76,8 @@ section img:hover{
         width: 25vw;
     }
     #suporte{
-    padding-top: 5px; 
+    padding-top: 0; 
+    margin: 15px 50px;
 }
 body{
 
