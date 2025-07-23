@@ -27,13 +27,15 @@ header img{
 body {
     background: #041348 url(../src/bg.png) no-repeat bottom fixed;
     background-size: cover;
-    width: auto;
+    width: 800px;
+    margin: auto;
 }
 
 #suporte {
     display: flex;
     justify-content: center;
-    padding-top: 110px;
+    padding-top: 50px;
+    margin: 50px
 }
 
 section {
@@ -90,8 +92,10 @@ body{
 
 body{
 background-position: 0 -300px; /* Centraliza a imagem */
+width: auto;
 }
 }
+
 
 /*TODO Animações */
 
