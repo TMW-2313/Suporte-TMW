@@ -109,12 +109,15 @@ ul li:hover {
     0 0 40px #3ec5ff;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
    header img {
-        height: 35vh;
+        height: 25vh;
     }
     ul{
       padding-top: 30vh;
+      flex-direction: row;
+      width: 250px;
+      justify-content: center;
     }
         ul li img{
         width: 35vw;
