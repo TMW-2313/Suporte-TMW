@@ -65,52 +65,9 @@ section img:hover{
 
 }
 
-@keyframes Suporte {
-	0% {
-		animation-timing-function: ease-in;
-		opacity: 1;
-		transform: translateY(-30px);
-	}
 
-	24% {
-		opacity: 1;
-	}
 
-	40% {
-		animation-timing-function: ease-in;
-		transform: translateY(-22px);
-	}
-
-	65% {
-		animation-timing-function: ease-in;
-		transform: translateY(-10px);
-	}
-
-	82% {
-		animation-timing-function: ease-in;
-		transform: translateY(-4px);
-	}
-
-	93% {
-		animation-timing-function: ease-in;
-		transform: translateY(-2px);
-	}
-
-	25%,
-	55%,
-	75%,
-	87% {
-		animation-timing-function: ease-out;
-		transform: translateY(0px);
-	}
-
-	100% {
-		animation-timing-function: ease-out;
-		opacity: 1;
-		transform: translateY(0px);
-	}
-}
-
+/*TODO Media Queries (responsividade para Mobile) */
 @media (max-width: 740px) {
    header img {
         width: 50%;
@@ -139,4 +96,46 @@ body{
 body{
 background-position: 0 -300px; /* Centraliza a imagem */
 }
+}
+
+/*TODO Animações */
+
+
+@keyframes Suporte {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(-30px);
+	}
+	24% {
+		opacity: 1;
+	}
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(-22px);
+	}
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(-10px);
+	}
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(-4px);
+	}
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(-2px);
+	}
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
 }
