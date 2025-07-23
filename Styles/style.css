@@ -37,15 +37,11 @@ body {
 }
 
 section {
-<<<<<<< HEAD
     width: 1200px;
-=======
-    width: 1000px;
->>>>>>> abd460224ae8de6a02ae0e95c8e0574c89b6cf62
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 30px; /* replaces row-gap for better browser support */
+    gap: 30px; 
 }
 
 section img {
