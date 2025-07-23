@@ -35,8 +35,9 @@ header{
 }
 header img{
   text-align: center;
-  height: 32vh;
+  height: 25vh;
   border-radius: 15%;
+  margin-top: 70px;
   box-shadow: 4px 3px 50px 17px rgba(0,10,52,0.46), 7px 6px 50px 17px rgba(0,0,0,0.21);
   animation: myAnim 20s ease 0s infinite alternate-reverse both;
   pointer-events: none;
