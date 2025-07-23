@@ -134,3 +134,9 @@ body{
     background-attachment: initial;
 }
 }
+@media (min-width: 1795px) {
+
+body{
+background-position: 0 -300px; /* Centraliza a imagem */
+}
+}
