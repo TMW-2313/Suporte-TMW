@@ -102,10 +102,10 @@ ul li:hover{
 
 @media (max-width: 1000px) {
    header img {
-        height: 35vh;
+        height: 25vh;
     }
     ul{
-      padding-top: 30vh;
+      padding-top: 22vh;
     }
         ul li img{
         width: 35vw;
